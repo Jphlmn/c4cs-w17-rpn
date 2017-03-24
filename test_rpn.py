@@ -14,3 +14,6 @@ class TestBasics(unittest.TestCase):
     def test_modulus(self):
         result = rpn.calculate("6 5 %")
         self.assertEqual(1, result)
+
+if __name__ == '__main__':
+    unittest.main()
