@@ -2,7 +2,7 @@
 import sys
 import readline
 import operator
-
+import sympy
 
 operators = {
 	'+': operator.add,
