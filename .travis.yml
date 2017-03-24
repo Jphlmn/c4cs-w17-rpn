@@ -4,7 +4,7 @@ python:
 intall:
  pip install -r requrements.txt
 script:
- pytest
+ make test
 # coverage run test_rpn.py
 after_success:
  coveralls
