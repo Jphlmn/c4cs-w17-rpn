@@ -2,8 +2,7 @@ language: python
 python:
  - "3.5"
 intall:
- pip install coverage
- pip install coveralls
+ pip install -r requrements.txt
 script:
  make test
 # coverage run test_rpn.py
